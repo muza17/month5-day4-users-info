@@ -1,0 +1,92 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+:root{
+    background-color: #F3F4F4;
+    color: #A51C30;
+    font-family: 'Rancho', cursive;
+}
+
+  
+  .heading {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+  }
+  
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+
+.users {
+    align-items:center;
+    justify-content: center;
+    /* width: 170px; */
+}
+
+.userItem {
+    border: 2px solid #1E1E1E;
+    width: 340px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #1E1E1E;
+
+}
+
+.posts {
+    align-items:center;
+    justify-content: center;
+    /* width: 170px; */
+}
+
+.postItem {
+    border: 2px solid #1E1E1E;
+    width: 340px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #1E1E1E;
+}
+
+.comments {
+    align-items:center;
+    justify-content: center;
+    /* max-width: 170px; */
+}
+
+.commentItem {
+    border: 2px solid #1E1E1E;
+    width: 340px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #1E1E1E;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+p, h4{
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
